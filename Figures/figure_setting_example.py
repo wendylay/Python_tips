@@ -1,5 +1,6 @@
 from matplotlib import pyplot as plt
 import numpy as np
+"""refer: https://www.bilibili.com/read/cv3307847/"""
 
 x = np.linspace(0, 3 * np.pi, 40)
 y1 = np.sin(x)
