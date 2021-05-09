@@ -7,6 +7,7 @@ This repositories includes some batch processing codes and data visualization me
   - Batch run [Seadas](https://seadas.gsfc.nasa.gov/downloads/#CommandLineConfig) L2gen code in Linux environment
   - crop image code in python
   - Date calculation
+  - Load Modis satellite data
 - **Figures**
   - density_figure
   - [Picture beautification settings](/Figures/figure_setting_example.py)
@@ -15,8 +16,9 @@ This repositories includes some batch processing codes and data visualization me
   - pandas merge
   - .nc file save
   - string list type transform
+  - filter_list (filter list to a new list)
   - ...
 
 
 
-### [Picture beautification settings](/Figures/figure_setting_example.py)![](/Figures/Beautiful.jpeg)
+### [Picture beautification settings](/Figures/figure_setting_example.py)![](./Figures/Beautiful.jpeg)
