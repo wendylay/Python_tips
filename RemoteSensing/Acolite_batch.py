@@ -11,8 +11,8 @@ def save_setting_file():
     example = 'E:/Landsat 8/acolite_python_settings.txt'  # 一个Setting文件例子
     # 注意setting文件的第91行为输入文件路径(从0开始)
     # 第92行为输出文件的路径。运行之前应该先检查,不是的话根据实际情况修改
-    s2dir = 'E:/Match_Landsat8_IceSat2/validation/Turks/raw2/'  # 原始数据的存放目录,注意加上最后的/
-    resultDir = 'E:/Match_Landsat8_IceSat2/validation/Turks/raw2/'  # Acolite大气校正后结果的存放路径。注意加上最后的/
+    s2dir = 'E:/Bahamas_large_depth/raw/'  # 原始数据的存放目录,注意加上最后的/
+    resultDir = 'E:/Bahamas_large_depth/raw/'  # Acolite大气校正后结果的存放路径。注意加上最后的/
 
     # 读出例子Setting文件的内容
     with open(example, 'r') as ef:
@@ -43,7 +43,7 @@ def save_setting_file():
 def run_setting_file():
     # run setting file with cmdline
     acolitepath = 'D:/software/acolite/launch_acolite.py'  # acolite的路径
-    setting_file_path = 'E:/Match_Landsat8_IceSat2/validation/Turks/raw2/'
+    setting_file_path = 'E:/Bahamas_large_depth/raw/'
     settingList = os.listdir(setting_file_path)
     for stl in settingList:
         if '_setting' in stl:

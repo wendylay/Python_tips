@@ -2,7 +2,6 @@ import netCDF4 as nc
 import numpy as np
 f_w = nc.Dataset('Y_distribution.nc', 'w', format='NETCDF4')
 
-
 # define dimensions
 longs = f_w.createDimension('longitude', size=len(lon))
 lats = f_w.createDimension('latitude', size=len(lat))
